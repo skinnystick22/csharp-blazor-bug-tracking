@@ -15,7 +15,7 @@ namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
         public void RegisterTheBugServiceTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                    + Path.DirectorySeparatorChar + "Startup.cs";
+                                                       + Path.DirectorySeparatorChar + "Startup.cs";
 
             Assert.True(File.Exists(filePath), "`Startup.cs` was not found.");
 

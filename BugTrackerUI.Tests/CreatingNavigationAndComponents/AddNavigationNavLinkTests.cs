@@ -15,8 +15,8 @@ namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
         public void AddNavigationNavLinkTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                + Path.DirectorySeparatorChar + "Shared"
-                + Path.DirectorySeparatorChar + "LeftNav.razor";
+                                                       + Path.DirectorySeparatorChar + "Shared"
+                                                       + Path.DirectorySeparatorChar + "LeftNav.razor";
 
             Assert.True(File.Exists(filePath), "`LeftNav.razor` should exist in the Shared folder.");
 
@@ -32,11 +32,15 @@ namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
             var secondLi = ulTag.Descendants("li").ElementAt(1);
 
             var firstNavLink = firstLi.Descendants("NavLink").FirstOrDefault();
-            Assert.True(firstNavLink != null && firstNavLink.Attributes["href"]?.Value == "" && firstNavLink.InnerText == "Home",
+            Assert.True(
+                firstNavLink != null && firstNavLink.Attributes["href"]?.Value == "" &&
+                firstNavLink.InnerText == "Home",
                 "The first `li` element should contain a `NavLink` component with with an `href` set to `\"\"` and contain the text `\"Home\"`.");
-            
+
             var secondNavLink = secondLi.Descendants("NavLink").FirstOrDefault();
-            Assert.True(secondNavLink != null && secondNavLink.Attributes["href"]?.Value == "/new-bug" && secondNavLink.InnerText == "New Bug",
+            Assert.True(
+                secondNavLink != null && secondNavLink.Attributes["href"]?.Value == "/new-bug" &&
+                secondNavLink.InnerText == "New Bug",
                 "The second `li` element should contain a `NavLink` component with with an `href` set to `\"/new-bug\"` and contain the text `\"New Bug\"`.");
         }
     }

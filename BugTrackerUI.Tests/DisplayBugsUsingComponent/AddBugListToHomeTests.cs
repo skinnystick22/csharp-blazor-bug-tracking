@@ -15,8 +15,8 @@ namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
         public void AddNavigationToLayoutTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                + Path.DirectorySeparatorChar + "Pages"
-                + Path.DirectorySeparatorChar + "Index.razor";
+                                                       + Path.DirectorySeparatorChar + "Pages"
+                                                       + Path.DirectorySeparatorChar + "Index.razor";
 
             Assert.True(File.Exists(filePath), "`Index.razor` should exist in the Shared folder.");
 
@@ -27,7 +27,6 @@ namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
 
             Assert.True(leftNav != null,
                 "`Index.razor` should contain the `BugList` component.");
-
         }
     }
 }

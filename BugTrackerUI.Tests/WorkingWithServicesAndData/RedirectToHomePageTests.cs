@@ -18,8 +18,8 @@ namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
         public void RedirectToHomePageTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                    + Path.DirectorySeparatorChar + "Pages"
-                    + Path.DirectorySeparatorChar + "NewBug.razor";
+                                                       + Path.DirectorySeparatorChar + "Pages"
+                                                       + Path.DirectorySeparatorChar + "NewBug.razor";
 
             Assert.True(File.Exists(filePath), "`NewBug.razor` was not found.");
 

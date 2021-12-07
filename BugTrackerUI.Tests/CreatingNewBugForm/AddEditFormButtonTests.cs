@@ -15,8 +15,8 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
         public void AddEditFormButtonTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                + Path.DirectorySeparatorChar + "Pages"
-                + Path.DirectorySeparatorChar + "NewBug.razor";
+                                                       + Path.DirectorySeparatorChar + "Pages"
+                                                       + Path.DirectorySeparatorChar + "NewBug.razor";
 
             Assert.True(File.Exists(filePath), "`NewBug.razor` should exist in the `Pages` folder.");
 
@@ -28,7 +28,7 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
             if (editForm != null)
             {
                 var parsedInput = editForm.Descendants("button")
-                                .FirstOrDefault(x => x.Attributes["type"]?.Value == $"submit");
+                    .FirstOrDefault(x => x.Attributes["type"]?.Value == $"submit");
 
                 Assert.True(parsedInput != null && parsedInput.InnerText == "Add Bug",
                     $"The EditForm Component should contain a button with attributes `type=\"submit\"` and the text `\"Add Bug\"`.");
@@ -36,7 +36,7 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
             else
             {
                 Assert.True(editForm != null,
-                @"The `NewBug` component element should contain an `EditForm` component with with a `Model` attribute set to `AddBug`.");
+                    @"The `NewBug` component element should contain an `EditForm` component with with a `Model` attribute set to `AddBug`.");
             }
         }
     }

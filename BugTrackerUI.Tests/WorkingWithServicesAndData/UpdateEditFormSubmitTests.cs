@@ -15,8 +15,8 @@ namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
         public void M4_07_UpdateEditFormSubmitTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                + Path.DirectorySeparatorChar + "Pages"
-                + Path.DirectorySeparatorChar + "NewBug.razor";
+                                                       + Path.DirectorySeparatorChar + "Pages"
+                                                       + Path.DirectorySeparatorChar + "NewBug.razor";
 
             Assert.True(File.Exists(filePath), "`NewBug.razor` should exist in the `Pages` folder.");
 

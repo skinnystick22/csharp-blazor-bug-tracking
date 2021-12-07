@@ -15,8 +15,8 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
         public void CreateNewBugHeaderTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                + Path.DirectorySeparatorChar + "Pages"
-                + Path.DirectorySeparatorChar + "NewBug.razor";
+                                                       + Path.DirectorySeparatorChar + "Pages"
+                                                       + Path.DirectorySeparatorChar + "NewBug.razor";
 
             Assert.True(File.Exists(filePath), "`NewBug.razor` should exist in the Pages folder.");
 
@@ -25,7 +25,7 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
 
             var h2 = doc.DocumentNode.Descendants("h3")?.FirstOrDefault();
 
-            Assert.True(h2 != null && h2.InnerText.Contains("Add New Bug", StringComparison.OrdinalIgnoreCase), 
+            Assert.True(h2 != null && h2.InnerText.Contains("Add New Bug", StringComparison.OrdinalIgnoreCase),
                 "`NewBug.razor` should contain an `h3` tag with the text `\"Add New Bug\".`");
         }
     }

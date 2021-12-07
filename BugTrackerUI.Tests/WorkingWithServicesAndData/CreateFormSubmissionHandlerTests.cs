@@ -18,13 +18,13 @@ namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
         public void CreateFormSubmissionHandlerTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                + Path.DirectorySeparatorChar + "Pages"
-                + Path.DirectorySeparatorChar + "NewBug.razor";
+                                                       + Path.DirectorySeparatorChar + "Pages"
+                                                       + Path.DirectorySeparatorChar + "NewBug.razor";
 
             Assert.True(File.Exists(filePath), "`NewBug.razor` should exist in the Pages folder.");
 
             var newBug = TestHelpers.GetClassType("BugTrackerUI.Pages.NewBug");
-            
+
             var method = newBug.GetMethod(
                 "HandleValidSubmit",
                 BindingFlags.Instance | BindingFlags.NonPublic);

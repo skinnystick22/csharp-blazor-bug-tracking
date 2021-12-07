@@ -15,8 +15,8 @@ namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
         public void AddNavigationToLayoutTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                + Path.DirectorySeparatorChar + "Shared"
-                + Path.DirectorySeparatorChar + "MainLayout.razor";
+                                                       + Path.DirectorySeparatorChar + "Shared"
+                                                       + Path.DirectorySeparatorChar + "MainLayout.razor";
 
             Assert.True(File.Exists(filePath), "`MainLayout.razor` should exist in the Shared folder.");
 
@@ -27,7 +27,6 @@ namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
 
             Assert.True(leftNav != null,
                 "`MainLayout.razor` should contain the `LeftNav` component.");
-
         }
     }
 }

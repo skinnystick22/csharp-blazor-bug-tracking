@@ -17,7 +17,7 @@ namespace M5_BugTrackerUI.Tests.AddDataValidationToForm
         public void AddRequiredAttributesTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                    + Path.DirectorySeparatorChar + "Bug.cs";
+                                                       + Path.DirectorySeparatorChar + "Bug.cs";
 
             Assert.True(File.Exists(filePath), "`Bug.razor` should exist in the project root.");
 
@@ -25,15 +25,19 @@ namespace M5_BugTrackerUI.Tests.AddDataValidationToForm
 
             var titleAttributes = bug.GetProperty("Title").GetCustomAttributesData();
             var titleRequired = titleAttributes.FirstOrDefault(x => x.AttributeType == typeof(RequiredAttribute));
-            Assert.True(titleRequired != null, "The `Title` property of the `Bug` class should be marked with the `[Required]` attribute.");
+            Assert.True(titleRequired != null,
+                "The `Title` property of the `Bug` class should be marked with the `[Required]` attribute.");
 
             var descriptionAttributes = bug.GetProperty("Description").GetCustomAttributesData();
-            var descriptionRequired = descriptionAttributes.FirstOrDefault(x => x.AttributeType == typeof(RequiredAttribute));
-            Assert.True(descriptionRequired != null, "The `Description` property of the `Bug` class should be marked with the `[Required]` attribute.");
+            var descriptionRequired =
+                descriptionAttributes.FirstOrDefault(x => x.AttributeType == typeof(RequiredAttribute));
+            Assert.True(descriptionRequired != null,
+                "The `Description` property of the `Bug` class should be marked with the `[Required]` attribute.");
 
             var priorityAttributes = bug.GetProperty("Priority").GetCustomAttributesData();
             var priorityRequired = priorityAttributes.FirstOrDefault(x => x.AttributeType == typeof(RequiredAttribute));
-            Assert.True(priorityRequired != null, "The `Priority` property of the `Bug` class should be marked with the `[Required]` attribute.");
+            Assert.True(priorityRequired != null,
+                "The `Priority` property of the `Bug` class should be marked with the `[Required]` attribute.");
         }
     }
 }

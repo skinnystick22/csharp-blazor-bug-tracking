@@ -19,8 +19,8 @@ namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
         public void OrderBugsByPriorityTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                + Path.DirectorySeparatorChar + "Components"
-                + Path.DirectorySeparatorChar + "BugList.razor";
+                                                       + Path.DirectorySeparatorChar + "Components"
+                                                       + Path.DirectorySeparatorChar + "BugList.razor";
 
             Assert.True(File.Exists(filePath), "`BugList.razor` should exist in the Pages folder.");
 

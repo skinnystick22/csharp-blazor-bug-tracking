@@ -15,8 +15,8 @@ namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
         public void AddNavLinkMatchTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                + Path.DirectorySeparatorChar + "Shared"
-                + Path.DirectorySeparatorChar + "LeftNav.razor";
+                                                       + Path.DirectorySeparatorChar + "Shared"
+                                                       + Path.DirectorySeparatorChar + "LeftNav.razor";
 
             Assert.True(File.Exists(filePath), "`LeftNav.razor` should exist in the Shared folder.");
 

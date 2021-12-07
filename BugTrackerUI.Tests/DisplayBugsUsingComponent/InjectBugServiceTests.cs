@@ -16,8 +16,8 @@ namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
         public void InjectBugServiceTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                + Path.DirectorySeparatorChar + "Components"
-                + Path.DirectorySeparatorChar + "BugList.razor";
+                                                       + Path.DirectorySeparatorChar + "Components"
+                                                       + Path.DirectorySeparatorChar + "BugList.razor";
 
             Assert.True(File.Exists(filePath), "`BugList.razor` should exist in the Components folder.");
 
@@ -26,8 +26,8 @@ namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
             var prop = newBug.GetProperty("BugService");
 
             Assert.True(prop != null && prop.PropertyType.Name.Contains("IBugService")
-                && newBug.IsPublic
-                && newBug.GetProperty("BugService").Name.Contains("BugService"),
+                                     && newBug.IsPublic
+                                     && newBug.GetProperty("BugService").Name.Contains("BugService"),
                 "`BugList.razor` should contain a public property `BugService` of type `IBugService`.");
         }
     }

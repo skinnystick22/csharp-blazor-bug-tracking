@@ -15,8 +15,8 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
         public void AddEditFormInputsTest()
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
-                + Path.DirectorySeparatorChar + "Pages"
-                + Path.DirectorySeparatorChar + "NewBug.razor";
+                                                       + Path.DirectorySeparatorChar + "Pages"
+                                                       + Path.DirectorySeparatorChar + "NewBug.razor";
 
             Assert.True(File.Exists(filePath), "`NewBug.razor` should exist in the `Pages` folder.");
 
@@ -33,12 +33,16 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
                 {
                     var inputType = "Text";
                     var parsedInput = editForm.Descendants("InputText")
-                        .FirstOrDefault(x => x.Attributes["placeholder"]?.Value == $"Enter {label}" && x.Attributes["@bind-Value"]?.Value == $"@AddBug.{label}");
+                        .FirstOrDefault(x =>
+                            x.Attributes["placeholder"]?.Value == $"Enter {label}" &&
+                            x.Attributes["@bind-Value"]?.Value == $"@AddBug.{label}");
 
                     if (parsedInput == null)
                     {
                         parsedInput = editForm.Descendants("InputNumber")
-                            .FirstOrDefault(x => x.Attributes["placeholder"]?.Value == $"Enter {label}" && x.Attributes["@bind-Value"]?.Value == $"@AddBug.{label}");
+                            .FirstOrDefault(x =>
+                                x.Attributes["placeholder"]?.Value == $"Enter {label}" &&
+                                x.Attributes["@bind-Value"]?.Value == $"@AddBug.{label}");
 
                         if (parsedInput != null)
                         {
@@ -53,9 +57,8 @@ namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
             else
             {
                 Assert.True(editForm != null,
-                @"The `NewBug` component should contain an `EditForm` component with with a `Model` attribute set to `AddBug`.");
+                    @"The `NewBug` component should contain an `EditForm` component with with a `Model` attribute set to `AddBug`.");
             }
-
         }
     }
 }

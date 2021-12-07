@@ -8,9 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d520a85-75eb-4623-88a2-65ffc9db982f" name="Changes" comment="Added Nav and NewBug Page">
+    <list default="true" id="5d520a85-75eb-4623-88a2-65ffc9db982f" name="Changes" comment=".idea file updated">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BugTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BugTracker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Pages/NewBug.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Pages/NewBug.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/NewBug.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Shared/MainLayout.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/NewBug.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21vxHBSAZfTEWbjwd9888XzLwFS" />
   <component name="ProjectLevelVcsManager">
@@ -83,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638835274162</updated>
-      <workItem from="1638835281304" duration="1558000" />
+      <workItem from="1638835281304" duration="2023000" />
     </task>
     <task id="LOCAL-00001" summary="Added Nav and NewBug Page">
       <created>1638836170153</created>
@@ -92,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638836170153</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a Form to the NewBug Page">
+      <created>1638837090910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638837090910</updated>
+    </task>
+    <task id="LOCAL-00003" summary=".idea file updated">
+      <created>1638837164959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638837164959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,6 +435,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added Nav and NewBug Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Nav and NewBug Page" />
+    <MESSAGE value="Added a Form to the NewBug Page" />
+    <MESSAGE value=".idea file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea file updated" />
   </component>
 </project>
