@@ -1,16 +1,11 @@
 ﻿using BugTrackerUI.Tests;
-using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 using Xunit;
 
 namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
 {
-    public class M6_06_DisplayBugsInTableTests
+    public class M606DisplayBugsInTableTests
     {
         [Fact(DisplayName = "Display the List of Bugs in a Table @display-buglist-table")]
         public void DisplayBugsInTableTest()

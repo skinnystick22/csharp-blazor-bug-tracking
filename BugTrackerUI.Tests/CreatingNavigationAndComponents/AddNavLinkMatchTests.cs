@@ -1,15 +1,12 @@
 ﻿using BugTrackerUI.Tests;
 using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Xunit;
 
 namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
 {
-    public class M2_04_AddNavLinkMatchTests
+    public class M204AddNavLinkMatchTests
     {
         [Fact(DisplayName = "Add the NavLink Match Attribute @add-navlink-match")]
         public void AddNavLinkMatchTest()

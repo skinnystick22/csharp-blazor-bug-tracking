@@ -1,15 +1,10 @@
-﻿using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
+﻿using System.IO;
 using Xunit;
 using BugTrackerUI.Tests;
 
 namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
-    public class M4_01_RegisterTheBugServiceTests
+    public class M401RegisterTheBugServiceTests
     {
         [Fact(DisplayName = "Register the BugService @register-bug-service")]
         public void RegisterTheBugServiceTest()

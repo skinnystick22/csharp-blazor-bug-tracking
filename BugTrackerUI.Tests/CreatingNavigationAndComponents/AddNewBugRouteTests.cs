@@ -1,14 +1,11 @@
 ﻿using BugTrackerUI.Tests;
 using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using Xunit;
 
 namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
 {
-    public class M2_07_AddNewBugRouteTests
+    public class M207AddNewBugRouteTests
     {
         [Fact(DisplayName = "Add the NewBug Friendly Route @add-newbug-friendly-route")]
         public void AddNewBugRouteTest()

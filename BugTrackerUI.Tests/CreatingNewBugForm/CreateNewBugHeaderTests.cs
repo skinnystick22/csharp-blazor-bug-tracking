@@ -1,15 +1,13 @@
 ﻿using HtmlAgilityPack;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Xunit;
 using BugTrackerUI.Tests;
 
 namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
 {
-    public class M3_01_CreateNewBugHeaderTests
+    public class M301CreateNewBugHeaderTests
     {
         [Fact(DisplayName = "Create the NewBug Header @create-newbug-header")]
         public void CreateNewBugHeaderTest()

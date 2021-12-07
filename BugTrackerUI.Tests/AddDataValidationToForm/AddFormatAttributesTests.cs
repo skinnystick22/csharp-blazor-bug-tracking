@@ -1,17 +1,12 @@
 ﻿using BugTrackerUI.Tests;
-using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Text;
 using Xunit;
 
 namespace M5_BugTrackerUI.Tests.AddDataValidationToForm
 {
-    public class M5_02_AddFormatAttributesTests
+    public class M502AddFormatAttributesTests
     {
         [Fact(DisplayName = "Add Format Attributes @add-format-attributes")]
         public void AddFormatAttributesTest()

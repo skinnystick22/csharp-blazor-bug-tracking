@@ -1,17 +1,12 @@
-﻿using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Text;
 using Xunit;
 using BugTrackerUI.Tests;
 
 namespace M5_BugTrackerUI.Tests.AddDataValidationToForm
 {
-    public class M5_01_AddRequiredAttributesTests
+    public class M501AddRequiredAttributesTests
     {
         [Fact(DisplayName = "Add Required Attributes @add-required-attributes")]
         public void AddRequiredAttributesTest()

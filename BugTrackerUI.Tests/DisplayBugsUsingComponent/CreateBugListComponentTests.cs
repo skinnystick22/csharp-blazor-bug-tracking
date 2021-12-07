@@ -1,15 +1,13 @@
 ﻿using BugTrackerUI.Tests;
 using HtmlAgilityPack;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Xunit;
 
 namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
 {
-    public class M6_01_CreateBugListComponentTests
+    public class M601CreateBugListComponentTests
     {
         [Fact(DisplayName = "Create the BugList Component @create-buglist-component")]
         public void CreateNewBugComponentTest()

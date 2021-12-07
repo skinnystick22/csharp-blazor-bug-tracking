@@ -1,16 +1,10 @@
-﻿using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
+﻿using System.IO;
 using Xunit;
 using BugTrackerUI.Tests;
 
 namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
-    public class M4_02_InjectBugServiceTests
+    public class M402InjectBugServiceTests
     {
         [Fact(DisplayName = "Inject the Bug Service into NewBug Component @inject-bugservice-newbug-component")]
         public void InjectBugServiceTest()

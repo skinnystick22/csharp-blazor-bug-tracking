@@ -1,17 +1,13 @@
-﻿using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Text;
 using Xunit;
 using BugTrackerUI.Tests;
 using BugTrackerUI;
 
 namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
 {
-    public class M6_03_CreateBugListPropertyTests
+    public class M603CreateBugListPropertyTests
     {
         [Fact(DisplayName = "Create the Bugs property @create-bugs-property")]
         public void CreateBugListPropertyTest()

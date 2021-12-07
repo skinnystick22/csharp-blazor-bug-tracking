@@ -1,15 +1,12 @@
 ﻿using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Xunit;
 using BugTrackerUI.Tests;
 
 namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
 {
-    public class M3_04_AddEditFormInputsTests
+    public class M304AddEditFormInputsTests
     {
         [Fact(DisplayName = "Add the Edit Form Input Components @add-editform-inputs")]
         public void AddEditFormInputsTest()

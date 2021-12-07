@@ -1,15 +1,12 @@
 ﻿using BugTrackerUI.Tests;
 using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Xunit;
 
 namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
 {
-    public class M2_03_AddNavigationNavLinkTests
+    public class M203AddNavigationNavLinkTests
     {
         [Fact(DisplayName = "Add the NavLink Components @add-navlink-components")]
         public void AddNavigationNavLinkTest()

@@ -1,18 +1,10 @@
-﻿using BugTrackerUI.Pages;
-using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 using Xunit;
 using BugTrackerUI.Tests;
 
 namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
-    public class M4_04_PersistNewBugTests
+    public class M404PersistNewBugTests
     {
         [Fact(DisplayName = "Persist the new bug @persist-new-bug")]
         public void PersistNewBugTest()

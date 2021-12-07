@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using Xunit;
 using Microsoft.AspNetCore.Components;
 
 namespace BugTrackerUI.Tests
 {
     public static class TestHelpers
     {
-        private static readonly string _projectName = "BugTrackerUI";
+        private static readonly string ProjectName = "BugTrackerUI";
 
         public static Type GetClassType(string fullName)
         {

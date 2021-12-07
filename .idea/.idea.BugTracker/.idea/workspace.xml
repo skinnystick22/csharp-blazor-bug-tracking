@@ -8,10 +8,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d520a85-75eb-4623-88a2-65ffc9db982f" name="Changes" comment="Fixed an issue causing failing Unit Tests">
+    <list default="true" id="5d520a85-75eb-4623-88a2-65ffc9db982f" name="Changes" comment="Added Validation">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BugTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BugTracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/AddDataValidationToForm/AddFormatAttributesTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/AddDataValidationToForm/AddFormatAttributesTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/AddDataValidationToForm/AddRequiredAttributesTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/AddDataValidationToForm/AddRequiredAttributesTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/AddDataValidationToForm/AddValidationDisplayComponentTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/AddDataValidationToForm/AddValidationDisplayComponentTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/AddDataValidationToForm/AddValidatorComponentTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/AddDataValidationToForm/AddValidatorComponentTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/AddNavLinkMatchTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/AddNavLinkMatchTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/AddNavigationListTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/AddNavigationListTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/AddNavigationNavLinkTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/AddNavigationNavLinkTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/AddNavigationToLayoutTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/AddNavigationToLayoutTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/AddNewBugRouteTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/AddNewBugRouteTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/CreateNavigationComponentTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/CreateNavigationComponentTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/CreateNewBugComponentTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNavigationAndComponents/CreateNewBugComponentTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNewBugForm/AddEditFormButtonTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNewBugForm/AddEditFormButtonTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNewBugForm/AddEditFormComponentTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNewBugForm/AddEditFormComponentTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNewBugForm/AddEditFormInputsTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNewBugForm/AddEditFormInputsTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNewBugForm/CreateNewBugHeaderTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNewBugForm/CreateNewBugHeaderTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNewBugForm/CreateNewBugPropertyTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/CreatingNewBugForm/CreateNewBugPropertyTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/AddBugListToHomeTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/AddBugListToHomeTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/CreateBugListComponentTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/CreateBugListComponentTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/CreateBugListPropertyTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/CreateBugListPropertyTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/DisplayBugsInTableTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/DisplayBugsInTableTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/InjectBugServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/InjectBugServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/OrderBugsByPriorityTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/OrderBugsByPriorityTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/RetrieveListofBugsTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/DisplayBugsUsingComponent/RetrieveListofBugsTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/TestHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/TestHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/CreateFormSubmissionHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/CreateFormSubmissionHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/InjectBugServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/InjectBugServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/InjectNavigationServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/InjectNavigationServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/PersistNewBugTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/PersistNewBugTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/RedirectToHomePageTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/RedirectToHomePageTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/RegisterTheBugServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/RegisterTheBugServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/UpdateEditFormSubmitTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI.Tests/WorkingWithServicesAndData/UpdateEditFormSubmitTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BugTrackerUI/Bug.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Bug.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Pages/NewBug.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Pages/NewBug.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Services/BugService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Services/BugService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Services/IBugService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Services/IBugService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +89,11 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BugTrackerUI: Bug">
     <configuration name="BugTrackerUI: Bug" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -96,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638835274162</updated>
-      <workItem from="1638835281304" duration="4259000" />
+      <workItem from="1638835281304" duration="5523000" />
     </task>
     <task id="LOCAL-00001" summary="Added Nav and NewBug Page">
       <created>1638836170153</created>
@@ -147,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638843539526</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Validation">
+      <created>1638843797101</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638843797101</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,12 +208,12 @@
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 34% 248/377" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 0% 395/395" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 34% 248/377" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="BugTrackerUI.Tests 41% 185/314" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 0% 395/395" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="BugTrackerUI.Tests 0% 314/314" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
@@ -481,6 +527,26 @@
     <MESSAGE value="Fixed a casing issue" />
     <MESSAGE value="Added BugService and HandleSubmit" />
     <MESSAGE value="Fixed an issue causing failing Unit Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed an issue causing failing Unit Tests" />
+    <MESSAGE value="Added Validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Validation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BugTrackerUI/_Imports.razor</url>
+          <properties documentPath="C:\Development\GitHub\csharp-blazor-bug-tracking\BugTrackerUI\_Imports.razor" initialLine="0" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

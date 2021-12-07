@@ -1,15 +1,12 @@
 ﻿using BugTrackerUI.Tests;
 using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Xunit;
 
 namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
 {
-    public class M2_02_AddNavigationListTests
+    public class M202AddNavigationListTests
     {
         [Fact(DisplayName = "Add the Navigation List @add-navigation-list")]
         public void AddNavigationListTest()

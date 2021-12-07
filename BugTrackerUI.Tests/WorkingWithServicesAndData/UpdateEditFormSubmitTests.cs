@@ -1,15 +1,12 @@
 ﻿using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Xunit;
 using BugTrackerUI.Tests;
 
 namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
-    public class M4_07_UpdateEditFormSubmitTests
+    public class M407UpdateEditFormSubmitTests
     {
         [Fact(DisplayName = "Update the EditForm Component submit @update-editform-submit")]
         public void M4_07_UpdateEditFormSubmitTest()

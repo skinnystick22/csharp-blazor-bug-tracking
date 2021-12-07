@@ -1,15 +1,12 @@
 ﻿using BugTrackerUI.Tests;
 using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Xunit;
 
 namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
 {
-    public class M3_05_AddEditFormButtonTests
+    public class M305AddEditFormButtonTests
     {
         [Fact(DisplayName = "Add the Edit Form Button @add-editform-button")]
         public void AddEditFormButtonTest()

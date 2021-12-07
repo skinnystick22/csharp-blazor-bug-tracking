@@ -1,16 +1,10 @@
-﻿using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
+﻿using System.IO;
 using Xunit;
 using BugTrackerUI.Tests;
 
 namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
 {
-    public class M4_05_InjectNavigationServiceTests
+    public class M405InjectNavigationServiceTests
     {
         [Fact(DisplayName = "Inject the Navigation Service into the NewBug Component @inject-navigation-service")]
         public void InjectNavigationServiceTest()

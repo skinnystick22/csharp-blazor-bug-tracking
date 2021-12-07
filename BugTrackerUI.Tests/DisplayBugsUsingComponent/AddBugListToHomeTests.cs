@@ -1,15 +1,12 @@
 ﻿using BugTrackerUI.Tests;
 using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Xunit;
 
 namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
 {
-    public class M6_07_AddBugListToHomeTests
+    public class M607AddBugListToHomeTests
     {
         [Fact(DisplayName = "Add the BugList component to Index @add-buglist-to-index")]
         public void AddNavigationToLayoutTest()

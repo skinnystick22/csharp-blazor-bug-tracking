@@ -1,15 +1,12 @@
 ﻿using BugTrackerUI.Tests;
 using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Xunit;
 
 namespace M5_BugTrackerUI.Tests.AddDataValidationToForm
 {
-    public class M5_04_AddValidationSummaryComponentTests
+    public class M504AddValidationSummaryComponentTests
     {
         [Fact(DisplayName = "Add the Validation Display Component @add-validation-display-component")]
         public void AddValidationSummaryComponentTest()

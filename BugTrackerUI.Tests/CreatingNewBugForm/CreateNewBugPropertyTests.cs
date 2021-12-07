@@ -1,16 +1,10 @@
-﻿using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
+﻿using System.IO;
 using Xunit;
 using BugTrackerUI.Tests;
 
 namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
 {
-    public class M3_02_CreateNewBugPropertyTests
+    public class M302CreateNewBugPropertyTests
     {
         [Fact(DisplayName = "Create the AddBug Property @create-addbug-property")]
         public void CreateNewBugPropertyTest()

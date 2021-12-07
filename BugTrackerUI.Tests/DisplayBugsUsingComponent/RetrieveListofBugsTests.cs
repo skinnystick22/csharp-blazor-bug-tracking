@@ -1,19 +1,11 @@
-﻿using BugTrackerUI.Pages;
-using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 using Xunit;
 using BugTrackerUI.Tests;
 using System.Text.RegularExpressions;
 
 namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
 {
-    public class M6_04_RetrieveListofBugsTests
+    public class M604RetrieveListofBugsTests
     {
         [Fact(DisplayName = "Retrieve list of bugs @retrieve-buglist")]
         public void RetrieveListofBugsTest()

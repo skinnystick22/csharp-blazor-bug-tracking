@@ -1,19 +1,10 @@
-﻿using BugTrackerUI.Pages;
-using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 using Xunit;
 using BugTrackerUI.Tests;
-using System.Text.RegularExpressions;
 
 namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
 {
-    public class M6_05_OrderBugsByPriorityTests
+    public class M605OrderBugsByPriorityTests
     {
         [Fact(DisplayName = "Order the list of bugs by priority @order-buglist")]
         public void OrderBugsByPriorityTest()
