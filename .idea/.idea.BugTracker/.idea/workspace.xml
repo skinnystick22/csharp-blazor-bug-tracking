@@ -8,8 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d520a85-75eb-4623-88a2-65ffc9db982f" name="Changes" comment=".idea file updated">
+    <list default="true" id="5d520a85-75eb-4623-88a2-65ffc9db982f" name="Changes" comment="Fixed a casing issue">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BugTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BugTracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Pages/NewBug.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Pages/NewBug.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/NewBug.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Shared/MainLayout.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/NewBug.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/_Host.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/NewBug.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21vxHBSAZfTEWbjwd9888XzLwFS" />
@@ -84,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638835274162</updated>
-      <workItem from="1638835281304" duration="2023000" />
+      <workItem from="1638835281304" duration="2975000" />
     </task>
     <task id="LOCAL-00001" summary="Added Nav and NewBug Page">
       <created>1638836170153</created>
@@ -107,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638837164959</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cleaned Up Code">
+      <created>1638837363329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638837363329</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed a casing issue">
+      <created>1638837454130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638837454130</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,11 +140,11 @@
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 35% 236/365" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 35% 239/368" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 35% 236/365" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 35% 239/368" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="BugTrackerUI.Tests 41% 185/314" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
@@ -437,6 +455,8 @@
     <MESSAGE value="Added Nav and NewBug Page" />
     <MESSAGE value="Added a Form to the NewBug Page" />
     <MESSAGE value=".idea file updated" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea file updated" />
+    <MESSAGE value="Cleaned Up Code" />
+    <MESSAGE value="Fixed a casing issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a casing issue" />
   </component>
 </project>
