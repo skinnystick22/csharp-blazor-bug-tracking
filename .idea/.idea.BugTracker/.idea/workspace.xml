@@ -4,9 +4,13 @@
     <projectFile profileName="IIS Express">BugTrackerUI/BugTrackerUI.csproj</projectFile>
     <projectFile profileName="Bug">BugTrackerUI/BugTrackerUI.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d520a85-75eb-4623-88a2-65ffc9db982f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Shared/MainLayout.razor" afterDir="false" />
+    <list default="true" id="5d520a85-75eb-4623-88a2-65ffc9db982f" name="Changes" comment="Added Nav and NewBug Page">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BugTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BugTracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Pages/NewBug.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Pages/NewBug.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +37,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BugTrackerUI: Bug">
@@ -75,8 +83,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638835274162</updated>
-      <workItem from="1638835281304" duration="854000" />
+      <workItem from="1638835281304" duration="1558000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Nav and NewBug Page">
+      <created>1638836170153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638836170153</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +118,7 @@
       <select />
     </coverage-tree-state>
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="UnknownFeatures">
@@ -402,5 +419,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added Nav and NewBug Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Nav and NewBug Page" />
   </component>
 </project>
