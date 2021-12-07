@@ -8,10 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d520a85-75eb-4623-88a2-65ffc9db982f" name="Changes" comment="Added BugService and HandleSubmit">
+    <list default="true" id="5d520a85-75eb-4623-88a2-65ffc9db982f" name="Changes" comment="Fixed an issue causing failing Unit Tests">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BugTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BugTracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Bug.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Bug.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BugTrackerUI/Pages/NewBug.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Pages/NewBug.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BugTrackerUI/Shared/LeftNav.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BugTrackerUI/Shared/LeftNav.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +24,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/NewBug.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Shared/MainLayout.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Shared/LeftNav.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/NewBug.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/_Host.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/NewBug.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/NewBug.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Bug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Pages/NewBug.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/74b83e9709f145a1b43a6ee0c78de3a357990/11/EventCallbackWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Development/GitHub/csharp-blazor-bug-tracking/BugTrackerUI/Shared/LeftNav.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -93,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638835274162</updated>
-      <workItem from="1638835281304" duration="3696000" />
+      <workItem from="1638835281304" duration="4259000" />
     </task>
     <task id="LOCAL-00001" summary="Added Nav and NewBug Page">
       <created>1638836170153</created>
@@ -137,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638842496887</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed an issue causing failing Unit Tests">
+      <created>1638843539526</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638843539526</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,6 +480,7 @@
     <MESSAGE value="Cleaned Up Code" />
     <MESSAGE value="Fixed a casing issue" />
     <MESSAGE value="Added BugService and HandleSubmit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added BugService and HandleSubmit" />
+    <MESSAGE value="Fixed an issue causing failing Unit Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed an issue causing failing Unit Tests" />
   </component>
 </project>
