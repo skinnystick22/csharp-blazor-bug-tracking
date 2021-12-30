@@ -1,10 +1,9 @@
-﻿using BugTrackerUI.Tests;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using Xunit;
 
-namespace M5_BugTrackerUI.Tests.AddDataValidationToForm
+namespace BugTrackerUI.Tests.AddDataValidationToForm
 {
     public class M502AddFormatAttributesTests
     {

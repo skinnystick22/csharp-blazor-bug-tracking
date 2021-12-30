@@ -1,8 +1,7 @@
 ﻿using System.IO;
 using Xunit;
-using BugTrackerUI.Tests;
 
-namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
+namespace BugTrackerUI.Tests.CreatingNewBugForm
 {
     public class M302CreateNewBugPropertyTests
     {

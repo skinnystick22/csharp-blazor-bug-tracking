@@ -1,4 +1,5 @@
 ﻿@page "/new-bug"
+@using BugTrackerUI.Services
 
 <h3>Add New Bug</h3>
 
@@ -20,7 +21,7 @@
     [Inject]
     public IBugService BugService { get; set; }
 
-    public Bug AddBug { get; set; } = new Bug();
+    public Bug AddBug { get; set; } = new();
 
     protected void HandleValidSubmit()
     {

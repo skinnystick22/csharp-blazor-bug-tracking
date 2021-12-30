@@ -1,11 +1,10 @@
-﻿using HtmlAgilityPack;
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
+using HtmlAgilityPack;
 using Xunit;
-using BugTrackerUI.Tests;
 
-namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
+namespace BugTrackerUI.Tests.CreatingNewBugForm
 {
     public class M301CreateNewBugHeaderTests
     {

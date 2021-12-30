@@ -1,11 +1,10 @@
 ﻿using System.Collections.Generic;
 
-namespace BugTrackerUI
-{
-    public interface IBugService
-    {
-        List<Bug> GetBugs();
+namespace BugTrackerUI.Services;
 
-        void AddBug(Bug newBug);
-    }
+public interface IBugService
+{
+    IEnumerable<Bug> GetBugs();
+
+    void AddBug(Bug newBug);
 }

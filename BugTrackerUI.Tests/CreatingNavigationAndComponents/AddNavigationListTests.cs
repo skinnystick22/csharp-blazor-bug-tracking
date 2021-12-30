@@ -1,10 +1,9 @@
-﻿using BugTrackerUI.Tests;
-using HtmlAgilityPack;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
+using HtmlAgilityPack;
 using Xunit;
 
-namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
+namespace BugTrackerUI.Tests.CreatingNavigationAndComponents
 {
     public class M202AddNavigationListTests
     {

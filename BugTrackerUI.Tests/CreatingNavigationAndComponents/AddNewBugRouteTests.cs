@@ -1,9 +1,8 @@
-﻿using BugTrackerUI.Tests;
+﻿using System.IO;
 using HtmlAgilityPack;
-using System.IO;
 using Xunit;
 
-namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
+namespace BugTrackerUI.Tests.CreatingNavigationAndComponents
 {
     public class M207AddNewBugRouteTests
     {

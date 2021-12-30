@@ -1,10 +1,9 @@
-﻿using BugTrackerUI.Tests;
-using HtmlAgilityPack;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
+using HtmlAgilityPack;
 using Xunit;
 
-namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
+namespace BugTrackerUI.Tests.DisplayBugsUsingComponent
 {
     public class M607AddBugListToHomeTests
     {

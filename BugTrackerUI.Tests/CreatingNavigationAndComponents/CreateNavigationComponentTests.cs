@@ -1,8 +1,7 @@
-﻿using BugTrackerUI.Tests;
-using System.IO;
+﻿using System.IO;
 using Xunit;
 
-namespace M2_BugTrackerUI.Tests.CreatingNavigationAndComponents
+namespace BugTrackerUI.Tests.CreatingNavigationAndComponents
 {
     public class M201CreateNavigationComponentTests
     {

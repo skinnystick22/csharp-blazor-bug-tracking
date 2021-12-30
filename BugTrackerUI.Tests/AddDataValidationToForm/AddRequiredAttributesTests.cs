@@ -2,9 +2,8 @@
 using System.IO;
 using System.Linq;
 using Xunit;
-using BugTrackerUI.Tests;
 
-namespace M5_BugTrackerUI.Tests.AddDataValidationToForm
+namespace BugTrackerUI.Tests.AddDataValidationToForm
 {
     public class M501AddRequiredAttributesTests
     {

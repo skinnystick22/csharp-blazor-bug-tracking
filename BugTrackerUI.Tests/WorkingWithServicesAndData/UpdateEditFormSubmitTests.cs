@@ -1,10 +1,9 @@
-﻿using HtmlAgilityPack;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
+using HtmlAgilityPack;
 using Xunit;
-using BugTrackerUI.Tests;
 
-namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
+namespace BugTrackerUI.Tests.WorkingWithServicesAndData
 {
     public class M407UpdateEditFormSubmitTests
     {

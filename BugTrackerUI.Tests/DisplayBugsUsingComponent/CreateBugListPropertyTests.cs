@@ -2,10 +2,8 @@
 using System.IO;
 using System.Linq;
 using Xunit;
-using BugTrackerUI.Tests;
-using BugTrackerUI;
 
-namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
+namespace BugTrackerUI.Tests.DisplayBugsUsingComponent
 {
     public class M603CreateBugListPropertyTests
     {

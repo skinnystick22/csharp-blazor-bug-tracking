@@ -1,8 +1,7 @@
 ﻿using System.IO;
 using Xunit;
-using BugTrackerUI.Tests;
 
-namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
+namespace BugTrackerUI.Tests.DisplayBugsUsingComponent
 {
     public class M605OrderBugsByPriorityTests
     {

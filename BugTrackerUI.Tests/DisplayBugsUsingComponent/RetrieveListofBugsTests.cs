@@ -1,9 +1,8 @@
 ﻿using System.IO;
-using Xunit;
-using BugTrackerUI.Tests;
 using System.Text.RegularExpressions;
+using Xunit;
 
-namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
+namespace BugTrackerUI.Tests.DisplayBugsUsingComponent
 {
     public class M604RetrieveListofBugsTests
     {

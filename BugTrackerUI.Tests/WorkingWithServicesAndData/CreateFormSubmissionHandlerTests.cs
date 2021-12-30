@@ -1,9 +1,8 @@
 ﻿using System.IO;
 using System.Reflection;
 using Xunit;
-using BugTrackerUI.Tests;
 
-namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
+namespace BugTrackerUI.Tests.WorkingWithServicesAndData
 {
     public class M403CreateFormSubmissionHandlerTests
     {

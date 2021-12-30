@@ -1,10 +1,9 @@
-﻿using BugTrackerUI.Tests;
-using HtmlAgilityPack;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
+using HtmlAgilityPack;
 using Xunit;
 
-namespace M5_BugTrackerUI.Tests.AddDataValidationToForm
+namespace BugTrackerUI.Tests.AddDataValidationToForm
 {
     public class M504AddValidationSummaryComponentTests
     {

@@ -1,10 +1,9 @@
-﻿using BugTrackerUI.Tests;
-using HtmlAgilityPack;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
+using HtmlAgilityPack;
 using Xunit;
 
-namespace M3_BugTrackerUI.Tests.CreatingNewBugForm
+namespace BugTrackerUI.Tests.CreatingNewBugForm
 {
     public class M305AddEditFormButtonTests
     {
